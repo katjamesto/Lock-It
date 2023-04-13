@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.iconify.design/iconify-icon/1.0.5/iconify-icon.min.js"></script>
+    <link rel="stylesheet" href="../styles/styles.css">
+    <title>LockIt</title>
+</head>
+<body>
+    
+    <nav class="navigation-bar">
+        <div class="container">
+            <div class="left-part">
+                <div class="logo-container">
+                    <img src="../logos/LockIt-logo.svg" alt="LockIt Logo">
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="global-content">
+        <div class="left-content">
+            <div class="lft-content-container">
+                <div class="top-content">
+                    <div class="txt-content">
+                        <h1>Hola, internauta... <br>¿Qué vamos a encriptar hoy?</h1>
+                        <p>Lock It encripta una palabra o textos completos. Tenga en cuenta que el texto no debe contener acentos, ni mayúsculas.</p>
+                    </div>
+                    <div class="input-container">
+                        <input class="txt-input" type="text" placeholder="ej: hola como estas" onkeypress="return (event.charCode >= 97 && event.charCode <= 122)">
+                        <button class="clear-input"><iconify-icon icon="ion:close-outline"></iconify-icon></button>
+                    </div>
+                </div>
+                <div class="bottom-content">
+                    <span><iconify-icon icon="ion:alert-circle"></iconify-icon> Sólo letras minúsculas y sin acento.</span>
+                    <div class="btns-encrypt">
+                        <button class="encriptar">Encriptar <iconify-icon icon="ion:lock-closed"></iconify-icon></button>
+                        <button class="desencritar">Desencriptar <iconify-icon icon="ion:lock-open"></iconify-icon></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="right-content">
+            <div class="rg-content-container">
+                <div class="container">
+                    <div class="not-input-txt">
+                        <div class="img-container">
+                            <img src="../media/Ransom note letters-bro.png" alt="ilustración">
+                        </div>
+                        <div class="txt-container">
+                            <h2>No encontramos ningún mensaje</h2>
+                            <p>Dile a la persona que te gusta, que te gusta; pero sin decirle que te gusta.</p>
+                        </div>
+                    </div>
+                    <div class="outpud-txt-container">
+                        <span class="outpud-txt"> </span>
+                        <div class="btn-copy-container">
+                            <button class="copy">Copiar <iconify-icon icon="ion:copy"></iconify-icon></button>
+                            <span class="copied-tag inactive">Copiado en el portapapeles <iconify-icon icon="ion:checkmark-sharp"></iconify-icon></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="left-content">
+                <small>Hecho con 💙 por Julián Castiblanco</small>
+            </div>
+            <div class="right-content">
+                <a href="https://www.linkedin.com/in/juli%C3%A1n-david-castiblanco-l%C3%B3pez-701438250/"><iconify-icon icon="ion:logo-linkedin"></iconify-icon></a>
+                <a href="https://github.com/katjamesto"><iconify-icon icon="ion:logo-github"></iconify-icon></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../src/main.js"></script>
+</body>
+</html>
